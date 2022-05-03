@@ -1,0 +1,37 @@
+{
+  "name": "sortle",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^5.0.3",
+    "@dnd-kit/modifiers": "^5.0.0",
+    "@dnd-kit/sortable": "^6.0.1",
+    "@dnd-kit/utilities": "^3.1.0",
+    "@react-spring/web": "^9.4.4",
+    "@stitches/react": "^1.2.8",
+    "@use-gesture/react": "^10.2.12",
+    "clsx": "^1.1.1",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dom": "18.1.0",
+    "seed-random": "^2.2.0",
+    "valtio": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@types/react": "^18.0.8",
+    "@types/react-beautiful-dnd": "^13.1.2",
+    "@types/react-dom": "^18.0.3",
+    "@types/seed-random": "^2.2.1",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.6",
+    "typescript": "^4.6.4"
+  }
+}
